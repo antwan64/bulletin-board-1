@@ -90,21 +90,5 @@
       <td><%= a_post.expires_on %></td>
     </tr>
     <% end %>
-
-    <form action="/modify_board/<%= @the_board.id %>"  method="post" >
-      <div>
-        <label for="name_box">
-          Name
-        </label>
-
-        <input type="text" id="name_box" name="query_name" value="<%= @the_board.name %>">
-      </div>
-
-      <button>
-        Update board
-      </button>
-    </form>
-  </div>
-</div>
-
-<hr>
+    
+    </table>
